@@ -3,13 +3,6 @@ from googletrans import Translator
 from docx import Document
 import base64
 import io
-import streamlit_theme as stt
-
-# Set the theme using a dictionary with the primary color specified
-stt.set_theme({'primary': '00CCFF'})
-
-# Rest of your Streamlit application code
-
 
 # Create a translator object
 translator = Translator()
